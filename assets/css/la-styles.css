@@ -1,0 +1,53 @@
+.launcher-logo {
+ position:absolute;
+ z-index:10;
+ top:calc(10% - 140px);
+ left:calc(50% - 138px)
+}
+.launcher-logo img {
+ width:280px
+}
+
+.card {
+    border-radius: 2px;
+}
+.navbar {
+    border-radius: 0;
+}
+.navbar .navbar-brand {
+    position: relative;
+    color: inherit;
+    height: 50px;
+    font-size: 1.125rem;
+    line-height: 30px;
+    padding: 0;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.btn-la {
+    color: #ffffff;
+    background-color: #b31217;
+    border-color: #b31217;
+    box-shadow: none;
+}
+.btn-la:hover {
+    color: #ffffff;
+    background-color: #e20c0c;
+    border-color: #d50c0c;
+}
+.card .card-header-la,
+.card.bg-la,
+.card.card-rotate.bg-la .front,
+.card.card-rotate.bg-la .back {
+    background: linear-gradient(60deg, #b31217, #e52d27);
+}
+.card .card-header-la {
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px rgba(156, 39, 176, 0.6);
+}
